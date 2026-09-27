@@ -1,0 +1,5 @@
+# Preserve LF line endings for environment files so Git does not rewrite them on Windows.
+.env text eol=lf
+.env.* text eol=lf
+*.env text eol=lf
+*.env.* text eol=lf
